@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffed2f32">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="    Main Menu"
+            android:id="@+id/textView"
+            android:layout_weight="0.00"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:fontFamily="Arial" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="74dp"
+                android:text="Soccer database"
+                android:id="@+id/soccerDatabase" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:weightSum="1" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="74dp"
+                android:text="DISPLAY SLIDESHOW OF VANIER PICTURES"
+                android:id="@+id/DisplaySlideShow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:weightSum="1" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="74dp"
+                android:text="SEND MESSAGES"
+                android:id="@+id/SendMessage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:weightSum="1" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="74dp"
+                android:text="DISPLAY ANIMATION"
+                android:id="@+id/DisplayAnim" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:weightSum="1" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="74dp"
+                android:text="EXIT"
+                android:id="@+id/Exit" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
